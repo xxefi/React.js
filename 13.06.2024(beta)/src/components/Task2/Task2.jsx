@@ -50,18 +50,16 @@ export default function Task2() {
   };
 
   const handleChange = (e) => {
-    const { value } = e.target;
     setState((prevState) => ({
       ...prevState,
-      city: value,
+      city: e.target.value,
     }));
   };
 
   const handleCountryChange = (e) => {
-    const { value } = e.target;
     setState((prevState) => ({
       ...prevState,
-      country: value,
+      country: e.target.value,
     }));
   };
 
