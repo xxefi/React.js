@@ -1,4 +1,4 @@
-export default function Form({
+export default function Form2({
   onSubmit,
   handleChange,
   handleCountryChange,
