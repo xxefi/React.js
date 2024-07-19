@@ -9,11 +9,11 @@ export default function Navbar() {
       <Disclosure as="nav" className="bg-black">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
-            <a href="#">
+            <Link to="/">
               <Text color="white" fontSize="25px">
                 ECOMMERCE
               </Text>
-            </a>
+            </Link>
 
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
               <div className="flex flex-shrink-0 items-center">
