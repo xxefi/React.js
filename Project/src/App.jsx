@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Catalog from "./components/Catalog";
 import News from "./components/News";
 import AboutUs from "./components/AboutUs";
-import NotFound from "./components/NotFound.jsx";
+import NotFound from "./components/404/NotFound";
 export default function App() {
   return (
     <div>
