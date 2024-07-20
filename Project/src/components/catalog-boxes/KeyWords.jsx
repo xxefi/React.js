@@ -1,10 +1,12 @@
+import {
+  RangeSlider,
+  RangeSliderThumb,
+  RangeSliderTrack,
+} from "@chakra-ui/react";
+
 export default function KeyWords({
   Box,
   Checkbox,
-  Slider,
-  SliderFilledTrack,
-  SliderThumb,
-  SliderTrack,
   Tag,
   TagCloseButton,
   TagLabel,
@@ -69,18 +71,15 @@ export default function KeyWords({
         <Text mt="2">
           ${price[0]} - ${price[1]}
         </Text>
-        <Slider
-          min={0}
-          max={100}
-          step={1}
+        <RangeSlider
+          aria-label={["min", "max"]}
           colorScheme="blackAlpha"
           onChangeEnd={handlePriceChange}
         >
-          <SliderTrack>
-            <SliderFilledTrack />
-          </SliderTrack>
-          <SliderThumb bg="black" />
-        </Slider>
+          <RangeSliderTrack />
+          <RangeSliderThumb bg="black" index={0} />
+          <RangeSliderThumb bg="black" index={1} />
+        </RangeSlider>
       </Box>
       <Box mb="4" className="flex flex-col">
         <Text fontSize="lg" mt="2">

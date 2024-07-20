@@ -1,22 +1,27 @@
 import React from "react";
 
-export default function TitleComponent({ Button }) {
+export default function TitleComponent({ Box, Button }) {
   return (
-    <div className="flex justify-center items-center">
-      <div className="flex flex-col items-center justify-center text-center">
-        <div className="flex flex-col flex-grow items-center justify-center text-center">
+    <Box
+      position="absolute"
+      left="50%"
+      bottom="50%"
+      transform="translate(-50%, -50%)"
+    >
+      <Box textAlign="center">
+        <Box mb={4}>
           <h1 className="text-6xl font-bold mb-2">Title</h1>
           <p className="text-2xl mb-4">Subtitle</p>
-        </div>
-        <div className="flex space-x-2">
-          <Button backgroundColor="white" colorScheme="gray">
+        </Box>
+        <Box display="flex" justifyContent="center" mt={4}>
+          <Button backgroundColor="white" colorScheme="gray" mr={2}>
             Button
           </Button>
-          <Button backgroundColor="black" colorScheme="white" marginLeft="10px">
+          <Button backgroundColor="black" colorScheme="white" ml={2}>
             Button
           </Button>
-        </div>
-      </div>
-    </div>
+        </Box>
+      </Box>
+    </Box>
   );
 }

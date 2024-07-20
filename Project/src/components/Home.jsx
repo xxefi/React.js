@@ -14,7 +14,7 @@ export default function Home() {
         backgroundPosition: "0 0, 10px 10px",
       }}
     >
-      <TitleComponent Button={Button} />
+      <TitleComponent Button={Button} Box={Box} />
       <div className="w-full flex-auto m-auto">
         <HomeFooter />
       </div>

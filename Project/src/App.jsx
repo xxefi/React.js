@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Catalog from "./components/Catalog";
+import Catalog from "./Catalog";
 import News from "./components/News";
 import AboutUs from "./components/AboutUs";
-import NotFound from "./components/404/NotFound";
+import NotFound from "./components/notfound/NotFound";
 export default function App() {
   return (
     <div>
