@@ -20,8 +20,8 @@ export default function KeyWords({
     <Box
       width="210px"
       padding="20px"
-      borderWidth="1px"
-      borderRadius="20px"
+      borderWidth="2px"
+      borderRadius="10px"
       marginTop="15px"
       marginLeft="15px"
     >

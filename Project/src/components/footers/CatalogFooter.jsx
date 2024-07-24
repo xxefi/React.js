@@ -29,12 +29,12 @@ export default function CatalogFooter() {
                   bgColor="#C13584"
                 >
                   <a href="https://instagram.com" target="_blank">
-                    <FaInstagram size="30" title="Instagram" color="#C13584" />
+                    <FaInstagram size="30" title="Instagram" color="black" />
                   </a>
                 </Tooltip>
                 <Tooltip label="YouTube" aria-label="YouTube" bgColor="red">
                   <a href="https://youtube.com" target="_blank">
-                    <FaYoutube size="30" title="YouTube" color="red" />
+                    <FaYoutube size="30" title="YouTube" color="black" />
                   </a>
                 </Tooltip>
                 <Tooltip
@@ -43,7 +43,7 @@ export default function CatalogFooter() {
                   bgColor="#0A66C2"
                 >
                   <a href="https://linkedin.com" target="_blank">
-                    <FaLinkedin size="30" title="Linkedin" color="#0A66C2" />
+                    <FaLinkedin size="30" title="Linkedin" color="black" />
                   </a>
                 </Tooltip>
               </div>

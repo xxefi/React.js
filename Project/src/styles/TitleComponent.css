@@ -1,0 +1,34 @@
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-weight: bold;
+  animation: typing 6s steps(30, end) infinite,
+    blink-caret 0.75s step-end infinite;
+  font-size: 75px;
+  color: black;
+}
+h1 {
+  font-family: "Nunito";
+}

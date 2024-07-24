@@ -12,36 +12,60 @@ export default function NavItems({
       <div className="flex flex-shrink-0 items-center space-x-4">
         <Wrap spacing={6}>
           <WrapItem>
-            <Tooltip label="Home" bgColor="white" color="black" padding={2}>
-              <Link to="/">
-                <Button color="white" colorScheme="white" variant="ghost">
+            <Tooltip
+              label="Home"
+              bgColor="black"
+              color="white"
+              padding={2}
+              borderRadius={10}
+            >
+              <Link to="/home">
+                <Button color="black" variant="ghost">
                   Home
                 </Button>
               </Link>
             </Tooltip>
           </WrapItem>
           <WrapItem>
-            <Tooltip label="Catalog" bgColor="white" color="black" padding={2}>
+            <Tooltip
+              label="Catalog"
+              bgColor="black"
+              color="white"
+              padding={2}
+              borderRadius={10}
+            >
               <Link to="/catalog">
-                <Button color="white" colorScheme="white" variant="ghost">
+                <Button color="black" variant="ghost">
                   Catalog
                 </Button>
               </Link>
             </Tooltip>
           </WrapItem>
           <WrapItem>
-            <Tooltip label="News" bgColor="white" color="black" padding={2}>
+            <Tooltip
+              label="News"
+              bgColor="black"
+              color="white"
+              padding={2}
+              borderRadius={10}
+            >
               <Link to="/news">
-                <Button color="white" colorScheme="white" variant="ghost">
+                <Button color="black" variant="ghost">
                   News
                 </Button>
               </Link>
             </Tooltip>
           </WrapItem>
           <WrapItem>
-            <Tooltip label="About Us" bgColor="white" color="black" padding={2}>
+            <Tooltip
+              label="About Us"
+              bgColor="black"
+              color="white"
+              padding={2}
+              borderRadius={10}
+            >
               <Link to="/aboutus">
-                <Button color="white" colorScheme="white" variant="ghost">
+                <Button color="black" variant="ghost">
                   About us
                 </Button>
               </Link>
